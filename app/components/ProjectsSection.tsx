@@ -3,18 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import SlideUp from "./SlideUp";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
-import { projects } from "../data";
+import { work } from "../data";
 
-const ProjectsSection = () => {
+const WorkSection = () => {
   return (
-    <section id="projects">
+    <section id="work">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Work
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">
-        {projects.map((project, idx) => {
+        {work.map((project, idx) => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
@@ -62,4 +62,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default WorkSection;
