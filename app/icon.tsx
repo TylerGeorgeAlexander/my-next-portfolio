@@ -1,4 +1,5 @@
 import { ImageResponse } from 'next/server'
+import React from 'react'
  
 // Route segment config
 export const runtime = 'edge'
@@ -18,7 +19,7 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: 'white',
+          // background: 'white',
           width: '100%',
           height: '100%',
           display: 'flex',

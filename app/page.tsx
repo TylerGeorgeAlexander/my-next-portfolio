@@ -1,11 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+import AboutSection from "./components/AboutSection"
+import HeroSection from "./components/HeroSection"
+import ProjectsSection from "./components/ProjectsSection"
 
 export default function Home() {
   return (
     <>
-      <h1>Tyler Alexander</h1>
-      <Link href="about">About Me</Link>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
     </>
   );
 }
