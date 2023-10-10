@@ -6,7 +6,7 @@ export const projects = [
       "A full stack application document bugs, issues, or features when building an application",
     image: "/bugTracker.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
-    github: "",
+    github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
   },
   {
     title: "Advanced Lawn Care",
@@ -24,7 +24,7 @@ export const projects = [
       "Contactr allows you to keep track of your networking connections while job hunting.",
     image: "/contactr.png",
     link: "https://contactr-demo.herokuapp.com",
-    github: "",
+    github: "https://github.com/TylerGeorgeAlexander/Contactr-demo",
   },
   {
     title: "Calvin Ester's Guitar Lessons",
@@ -42,7 +42,7 @@ export const projects = [
       "Fruit Finder is a web app which uses Machine Learning and Computer Vision to detect fruit in a photo.",
     image: "/fruit-finder.png",
     link: "https://ta-fruit-finder.herokuapp.com/",
-    github: "",
+    github: "https://github.com/TylerGeorgeAlexander/Fruit-Finder",
   },
   {
     title: "Color Lab Salon",
