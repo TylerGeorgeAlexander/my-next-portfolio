@@ -43,7 +43,7 @@ const AboutSection = () => {
 
             <br />
             <p>
-              I'm passionate about software engineering and have a wide range of
+              I&apos;m passionate about software engineering and have a wide range of
               interests that keep me busy. From working on complex coding
               projects to staying updated with the latest technology trends, I
               am always seeking new experiences and love to keep myself engaged
