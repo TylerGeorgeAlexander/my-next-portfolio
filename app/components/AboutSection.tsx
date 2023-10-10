@@ -29,7 +29,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Greetings! I'm Tyler, a software engineer hailing from Atlanta,
+              Greetings! I&apos;m Tyler, a software engineer hailing from Atlanta,
               GA, known for my{" "}
               <span className="font-bold">{`unwavering ambition`}</span>,{" "}
               <span className="font-bold">{`self-motivation`}</span>, and{" "}
@@ -55,9 +55,9 @@ const AboutSection = () => {
             <p>
               I firmly believe in the principle of{" "}
               <span className="font-bold text-teal-500">continuous growth</span>
-              . It's a philosophy I wholeheartedly embrace. My passion for
+              . It&apos;s a philosophy I wholeheartedly embrace. My passion for
               technology fuels my drive to consistently explore the boundaries
-              of what's achievable. I'm eager to discover the path my career
+              of what&apos;s achievable. I&apos;m eager to discover the path my career
               will take, and I remain open to exciting new opportunities. 😊
             </p>
           </div>
@@ -76,7 +76,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/laptop.png"
               alt=""
               width={325}
               height={325}
