@@ -12,6 +12,7 @@ const HeroSection = () => {
           <Image
             src="/tyler-american-comic-fotor-ai.png"
             alt=""
+            priority
             width={325}
             height={325}
             className="rounded-full shadow-2xl"
