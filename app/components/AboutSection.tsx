@@ -81,7 +81,7 @@ const AboutSection = () => {
                 alt=""
                 width={500}
                 height={500}
-                className="rounded-lg hidden md:flex md:z-0"
+                className="animate-pulse-extended rounded-lg hidden md:flex md:z-0"
               />
             </div>
           </div>
