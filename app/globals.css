@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS */
+.animate-pulse-extended {
+  animation: pulse-extended 12s infinite; /* Adjust the delay here (e.g., 2s) */
+}
+
+@keyframes pulse-extended {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
