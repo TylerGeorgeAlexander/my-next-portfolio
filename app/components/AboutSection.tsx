@@ -78,19 +78,25 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center items-center flex-col mt-8">
               <div className="flex m-4">
-                <span id="L">L</span>
-                <span id="I">I</span>
-                <span id="G">G</span>
-                <span id="H">H</span>
+                <span id="C">C</span>
+                <span id="R">R</span>
+                <span id="E">E</span>
+                <span id="A">A</span>
                 <span id="T">T</span>
+                <span id="I">I</span>
+                <span id="V">V</span>
+                <span id="I2">I</span>
+                <span id="T2">T</span>
+                <span id="Y">Y</span>
               </div>
+
               <div className="mt-4 md:mt-8">
                 <Image
                   src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.png"
                   alt=""
                   width={500}
                   height={500}
-                  className="animate-pulse-extended rounded-lg hidden md:flex md:z-0"
+                  className="animate-pulse-extended rounded-lg md:flex md:z-0"
                 />
               </div>
             </div>

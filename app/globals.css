@@ -32,12 +32,12 @@ div > span {
 	-moz-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
 	box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
 }
-#L, #G {
+#C, #R, #E, #A, #T {
 	animation: flickerLG 2s linear reverse infinite;
 	position: relative;
 }
-#L::after, 
-#L::before  {
+#C::after, 
+#C::before  {
 	content:' ';
 	width: 100px;
 	height: 100px;
@@ -49,7 +49,7 @@ div > span {
 	opacity: 0.05;
 	filter: blur(10px);
 }
-#L::after {
+#C::after {
 	width: 200px;
 	height: 200px;
 	top: -150%;
@@ -57,11 +57,8 @@ div > span {
 	opacity: 0.1;
 	filter: blur(10px);
 }
-#H {
-	animation: flickerH 2s linear reverse infinite
-}
 
-#T {
+#V, #I2, #T2, #Y {
 	animation: flickerH 2s linear reverse infinite
 }
 
