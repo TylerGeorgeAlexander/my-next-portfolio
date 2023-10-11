@@ -4,7 +4,7 @@ export const work = [
     subtitle: "MongoDB, Express, React, Node",
     description:
       "A full stack application for documenting bugs, issues, or features while building an application",
-    image: "/bugTracker.png",
+    image: "/bugTracker1.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
     github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
   },
