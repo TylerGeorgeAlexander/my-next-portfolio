@@ -77,11 +77,11 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center items-center mt-16">
               <Image
-                src="/laptop.png"
+                src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.png"
                 alt=""
-                width={325}
-                height={325}
-                className="hidden md:flex md:z-0"
+                width={500}
+                height={500}
+                className="rounded-lg hidden md:flex md:z-0"
               />
             </div>
           </div>
