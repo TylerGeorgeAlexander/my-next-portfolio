@@ -29,8 +29,8 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Greetings! I&apos;m Tyler, a software engineer hailing from Atlanta,
-              GA, known for my{" "}
+              Greetings! I&apos;m Tyler, a software engineer hailing from
+              Atlanta, GA, known for my{" "}
               <span className="font-bold">{`unwavering ambition`}</span>,{" "}
               <span className="font-bold">{`self-motivation`}</span>, and{" "}
               <span className="font-bold">{`dedication`}</span>.
@@ -43,13 +43,13 @@ const AboutSection = () => {
 
             <br />
             <p>
-              I&apos;m passionate about software engineering and have a wide range of
-              interests that keep me busy. From working on complex coding
-              projects to staying updated with the latest technology trends, I
-              am always seeking new experiences and love to keep myself engaged
-              and learning. In addition to my software engineering skills, I
-              also enjoy tinkering with motorcycles, cars, and small engines.
-              🧑‍🔧🏍️
+              I&apos;m passionate about software engineering and have a wide
+              range of interests that keep me busy. From working on complex
+              coding projects to staying updated with the latest technology
+              trends, I am always seeking new experiences and love to keep
+              myself engaged and learning. In addition to my software
+              engineering skills, I also enjoy tinkering with motorcycles, cars,
+              and small engines. 🧑‍🔧🏍️
             </p>
             <br />
             <p>
@@ -57,8 +57,9 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">continuous growth</span>
               . It&apos;s a philosophy I wholeheartedly embrace. My passion for
               technology fuels my drive to consistently explore the boundaries
-              of what&apos;s achievable. I&apos;m eager to discover the path my career
-              will take, and I remain open to exciting new opportunities. 😊
+              of what&apos;s achievable. I&apos;m eager to discover the path my
+              career will take, and I remain open to exciting new opportunities.
+              😊
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -75,14 +76,23 @@ const AboutSection = () => {
                 );
               })}
             </div>
-            <div className="flex justify-center items-center mt-16">
-              <Image
-                src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.png"
-                alt=""
-                width={500}
-                height={500}
-                className="animate-pulse-extended rounded-lg hidden md:flex md:z-0"
-              />
+            <div className="flex justify-center items-center flex-col mt-8">
+              <div className="flex m-4">
+                <span id="L">L</span>
+                <span id="I">I</span>
+                <span id="G">G</span>
+                <span id="H">H</span>
+                <span id="T">T</span>
+              </div>
+              <div className="mt-4 md:mt-8">
+                <Image
+                  src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.png"
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="animate-pulse-extended rounded-lg hidden md:flex md:z-0"
+                />
+              </div>
             </div>
           </div>
         </div>
