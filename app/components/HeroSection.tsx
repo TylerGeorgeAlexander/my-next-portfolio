@@ -31,7 +31,7 @@ const HeroSection = () => {
             software that enriches lives and brings purpose.
           </p>
           <Link
-            to="projects"
+            to="work"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
@@ -39,7 +39,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Explore My Projects
+            Explore My Work
           </Link>
         </div>
       </div>

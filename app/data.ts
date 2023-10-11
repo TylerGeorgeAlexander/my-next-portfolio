@@ -1,9 +1,9 @@
-export const projects = [
+export const work = [
   {
     title: "bugTracker",
     subtitle: "MongoDB, Express, React, Node",
     description:
-      "A full stack application document bugs, issues, or features when building an application",
+      "A full stack application for documenting bugs, issues, or features while building an application",
     image: "/bugTracker.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
     github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
