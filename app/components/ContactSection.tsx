@@ -73,7 +73,7 @@ const ContactSection: React.FC = () => {
               <h3>Phone</h3>
             </div>
             <div className="flex mb-4">
-              <span>+56 9 5617 7204</span>
+              <a href="tel:+6787199146">(678) 719-9146</a>
             </div>
           </div>
           <form
@@ -116,7 +116,10 @@ const ContactSection: React.FC = () => {
                 onChange={handleChange}
               />
             </div>
-            <button type="submit" className="button-style">
+            <button
+              type="submit"
+              className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-400 dark:hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
+            >
               Submit
             </button>
           </form>
