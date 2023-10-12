@@ -116,7 +116,7 @@ const AboutSection = () => {
               <div className="mt-4 md:mt-8">
                 <Image
                   src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.jpg"
-                  alt=""
+                  alt="An AI rendered profile of Tyler. Tyler is looking towards two monitors on a standing desk. Ostensibly the screen on the right, features VSCode, and the monitor on the left shows GitHub pages."
                   width={500}
                   height={500}
                   className="animate-pulse-extended rounded-lg md:flex md:z-0"
