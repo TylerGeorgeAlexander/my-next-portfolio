@@ -26,7 +26,7 @@ export const work = [
     subtitle: "MongoDB, Express, React, Node",
     badges: [MongoDB, Express, ReactSVG, NodeSVG],
     description:
-      "A full stack application for documenting bugs, issues, or features while building an application",
+      "bugTracker is a full-stack web application designed to help you manage and track bugs and issues efficiently.",
     image: "/bug-tracker-1.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
     github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
@@ -36,7 +36,7 @@ export const work = [
     subtitle: "HTML5, CSS3",
     badges: [Html5SVG, CSS3SVG],
     description:
-      "Static web page built for a landscaping and lawn maintenance client.",
+      "A static web page meticulously crafted for a landscaping and lawn maintenance client, employing HTML5 and CSS3 technologies to ensure an impeccable online presence.",
     image: "/advanced-lawn-care.png",
     link: "https://advancedlawncare.netlify.app/",
     github: "",
@@ -46,7 +46,7 @@ export const work = [
     subtitle: "HTML5, CSS3",
     badges: [Html5SVG, CSS3SVG],
     description:
-      "Static web page built for a guitar instructor who also teaches music theory and history.",
+      "A static web page developed for Calvin Ester, a guitar instructor with expertise in music theory and history, to provide a professional online platform for his guitar lessons.",
     image: "/calvin-ester-guitar-lessons.png",
     link: "https://calvin-ester-guitar-lessons.netlify.app/",
     github: "",
@@ -56,7 +56,7 @@ export const work = [
     subtitle: "HTML5, CSS3",
     badges: [Html5SVG, CSS3SVG],
     description:
-      "Static web page built for a local women-owned hair salon in Sacramento, California.",
+      "A static web page created for Color Lab Salon, a women-owned local hair salon situated in Sacramento, California, to enhance its online presence and provide essential information to potential clients.",
     image: "/color-lab-salon.png",
     link: "https://color-lab-salon.netlify.app/",
     github: "",
@@ -66,7 +66,7 @@ export const work = [
     subtitle: "MongoDB, Express, EJS, Node",
     badges: [MongoDB, Express, JSSVG, NodeSVG],
     description:
-      "Contactr allows you to keep track of your networking connections while job hunting.",
+      "Contactr utilizes a stack composed of MongoDB, Express, EJS, and Node.js to facilitate efficient tracking of your networking connections during your job search endeavors.",
     image: "/contactr.png",
     link: "https://contactr-demo.herokuapp.com",
     github: "https://github.com/TylerGeorgeAlexander/Contactr-demo",
