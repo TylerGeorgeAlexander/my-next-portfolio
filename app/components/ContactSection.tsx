@@ -51,9 +51,11 @@ const ContactSection: React.FC = () => {
         <div className="container rounded-lg bg-gray-300 dark:bg-gray-800 px-5 py-10 mx-auto flex flex-col md:flex-row items-center text-center animate-slideUpCubiBezier animation-delay-2">
           <div className="lg:w-1/2 md:w-full rounded-lg overflow-hidden sm:mr-0 p-10 flex flex-col items-center justify-center">
             <div className="flex mb-4">
-              <span className="icon solid alt">
-                <AiOutlineMail />
-              </span>
+              <a href="mailto:TylerGeorgeAlexander.dev@gmail.com">
+                <span className="icon solid alt">
+                  <AiOutlineMail />
+                </span>
+              </a>
             </div>
             <div className="flex mb-4">
               <h3>Email</h3>
@@ -65,9 +67,11 @@ const ContactSection: React.FC = () => {
             </div>
 
             <div className="flex mb-4">
-              <span className="icon solid alt">
-                <AiOutlinePhone />
-              </span>
+              <a href="tel:+6787199146">
+                <span className="icon solid alt">
+                  <AiOutlinePhone />
+                </span>
+              </a>
             </div>
             <div className="flex mb-4">
               <h3>Phone</h3>
