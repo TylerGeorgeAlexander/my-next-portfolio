@@ -78,16 +78,16 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center items-center flex-col mt-8">
               <div className="flex m-4">
-                <span id="C">C</span>
-                <span id="R">R</span>
-                <span id="E">E</span>
-                <span id="A">A</span>
-                <span id="T">T</span>
-                <span id="I">I</span>
-                <span id="V">V</span>
-                <span id="I2">I</span>
-                <span id="T2">T</span>
-                <span id="Y">Y</span>
+                <span id="C" className="light">C</span>
+                <span id="R" className="light">R</span>
+                <span id="E" className="light">E</span>
+                <span id="A" className="light">A</span>
+                <span id="T" className="light">T</span>
+                <span id="I" className="light">I</span>
+                <span id="V" className="light">V</span>
+                <span id="I2" className="light">I</span>
+                <span id="T2" className="light">T</span>
+                <span id="Y" className="light">Y</span>
               </div>
 
               <div className="mt-4 md:mt-8">
