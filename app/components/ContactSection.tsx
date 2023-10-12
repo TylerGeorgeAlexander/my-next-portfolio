@@ -48,22 +48,31 @@ const ContactSection: React.FC = () => {
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
       </h1>
       <SlideUp>
-        <div className="container rounded-lg bg-gray-300 dark:bg-gray-800 px-5 py-10 mx-auto flex flex-col md:flex-row items-center justify-center animate-slideUpCubiBezier animation-delay-2">
-          <div className="lg:w-1/2 md:w-full rounded-lg overflow-hidden sm:mr-0 p-10 flex flex-col items-center">
-            <div className="contact-method mb-6">
+        <div className="container rounded-lg bg-gray-300 dark:bg-gray-800 px-5 py-10 mx-auto flex flex-col md:flex-row items-center text-center animate-slideUpCubiBezier animation-delay-2">
+          <div className="lg:w-1/2 md:w-full rounded-lg overflow-hidden sm:mr-0 p-10 flex flex-col items-center justify-center">
+            <div className="flex mb-4">
               <span className="icon solid alt">
                 <AiOutlineMail />
               </span>
+            </div>
+            <div className="flex mb-4">
               <h3>Email</h3>
+            </div>
+            <div className="flex mb-12">
               <a href="mailto:TylerGeorgeAlexander.dev@gmail.com">
                 TylerGeorgeAlexander.dev@gmail.com
               </a>
             </div>
-            <div className="contact-method">
+
+            <div className="flex mb-4">
               <span className="icon solid alt">
                 <AiOutlinePhone />
               </span>
+            </div>
+            <div className="flex mb-4">
               <h3>Phone</h3>
+            </div>
+            <div className="flex mb-4">
               <span>+56 9 5617 7204</span>
             </div>
           </div>
