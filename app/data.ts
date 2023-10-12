@@ -22,11 +22,11 @@ export const work = [
     github: "https://github.com/TylerGeorgeAlexander/ImageSense",
   },
   {
-    title: "bugTracker",
+    title: "BugTracker",
     subtitle: "MongoDB, Express, React, Node",
     badges: [MongoDB, Express, ReactSVG, NodeSVG],
     description:
-      "bugTracker is a full-stack web application designed to help you manage and track bugs and issues efficiently.",
+      "BugTracker is a full-stack web application designed to help you manage and track bugs and issues efficiently.",
     image: "/bug-tracker-1.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
     github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
