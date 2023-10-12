@@ -26,9 +26,9 @@ const HeroSection = () => {
             I work as a{" "}
             <span className="font-semibold text-teal-600">
               Software Engineer
-            </span>{" "}
-            located in Atlanta, GA, with a strong commitment to developing
-            software that enriches lives and brings purpose.
+            </span>
+            , with a strong commitment to developing software that enriches
+            lives and brings purpose.
           </p>
           <Link
             to="work"
