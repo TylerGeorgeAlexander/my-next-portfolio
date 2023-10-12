@@ -1,3 +1,4 @@
+// https://github.com/Ileriayo/markdown-badges
 const TensorFlow = `badges/tensorflowjs.svg`;
 const NextJS = `badges/nextjs.svg`;
 const TailwindCSS = `badges/tailwindcss.svg`;
