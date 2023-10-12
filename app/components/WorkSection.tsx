@@ -32,6 +32,24 @@ const WorkSection = () => {
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.title}</h1>
+                    <div className="flex flex-wrap">
+                      {project.badges?.map((badge, idx) => (
+                        <div
+                          key={idx}
+                          className="flex m-2"
+                          // style={{ width: "100px" }}
+                        >
+                          <Image
+                            src={badge}
+                            alt=""
+                            width={100}
+                            height={100}
+                            style={{ width: "100%", height: "auto" }}
+                          />
+                        </div>
+                      ))}
+                    </div>
+
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
