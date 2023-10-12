@@ -82,7 +82,7 @@ const ContactSection: React.FC = () => {
             className="lg:w-1/2 md:w-full flex flex-col text-center items-center md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           >
             <div className="relative mb-4 w-full">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+              <label htmlFor="name" className="leading-7 text-sm">
                 Name
               </label>
               <input
@@ -94,10 +94,7 @@ const ContactSection: React.FC = () => {
               />
             </div>
             <div className="relative mb-4 w-full">
-              <label
-                htmlFor="email"
-                className="leading-7 text-sm text-gray-400"
-              >
+              <label htmlFor="email" className="leading-7 text-sm">
                 Email
               </label>
               <input
@@ -109,10 +106,7 @@ const ContactSection: React.FC = () => {
               />
             </div>
             <div className="relative mb-4 w-full">
-              <label
-                htmlFor="message"
-                className="leading-7 text-sm text-gray-400"
-              >
+              <label htmlFor="message" className="leading-7 text-sm">
                 Message
               </label>
               <textarea
