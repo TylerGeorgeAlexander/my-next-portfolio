@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Software Engineering Portfolio
+
+![An AI rendered portrait of Tyler, stylized as an American comic avatar. Tyler is a bearded programmer wearing glasses, and a black skullcap.](readme-image.png)
+
+This is the README file for your portfolio website built with TypeScript and Next.js. This document will provide you with important information about the project, how to set it up locally, and any additional configuration required for deployment, particularly when using Netlify.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [License](#license)
+
+## Introduction
+
+This portfolio website is built using TypeScript and Next.js, which are powerful tools for creating modern, performant web applications. It allows you to showcase your projects, skills, and experience in a visually appealing manner.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Before you begin, ensure you have met the following requirements:
+
+- Node.js: You should have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd your-portfolio
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to see your portfolio website running locally.
+
+## Configuration
+
+The project may require some environment configuration, especially if you plan to deploy it using Netlify. Below is an example `.env` file that you can use as a reference:
+
+```env
+NEXT_FORCE_EDGE_IMAGES=true
+# DISABLE_IPX=true
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Please note that you may need to add one or both of these environment variables to your Netlify configuration variables when deploying with their service.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `NEXT_FORCE_EDGE_IMAGES`: Setting this to `true` can help optimize image loading on your website. Ensure this variable is configured according to your needs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `DISABLE_IPX`: This variable appears to be commented out in the example. Depending on your use case and image optimization preferences, you can uncomment and configure it accordingly.
 
-## Learn More
+Make sure to review the Next.js and Netlify documentation for any additional configuration steps specific to your project.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To deploy your portfolio website, you can use various hosting services, and Netlify is a popular choice. Here are some general steps to deploy your Next.js portfolio on Netlify:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Push your project to a Git repository (e.g., GitHub).
 
-## Deploy on Vercel
+2. Sign up for a Netlify account if you don't already have one.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Connect your Git repository to Netlify and configure your deployment settings.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Add the environment variables mentioned in the `.env` file to your Netlify project's environment variables configuration.
+
+5. Trigger a manual or automatic deployment from the Netlify dashboard.
+
+6. Once the deployment is successful, your portfolio will be live on a Netlify URL.
+
+Remember to refer to the Netlify documentation for detailed instructions on deploying a Next.js project with Netlify.
+
+## License
+
+This portfolio project is licensed under the [MIT License](LICENSE). Feel free to modify and customize it to suit your needs. Good luck with your portfolio!

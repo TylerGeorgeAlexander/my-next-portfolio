@@ -48,9 +48,12 @@ const AboutSection = () => {
               encompasses tackling complex coding challenges, staying
               well-informed about the latest technological advancements, and
               actively seeking opportunities for personal and professional
-              growth. In addition to my software engineering pursuits, I have a
-              keen interest in hands-on activities involving motorcycles,
-              automobiles, and small engines. 🧑‍🔧🏍️
+              growth. I have a profound and unwavering passion for AI, machine
+              learning, large language models, and technical writing, driving me
+              to constantly explore and innovate in these fields. In addition to
+              my software engineering pursuits, I have a keen interest in
+              hands-on activities involving motorcycles, automobiles, and small
+              engines. 🧑‍🔧🏍️
             </p>
             <br />
             <p>
@@ -113,7 +116,7 @@ const AboutSection = () => {
               <div className="mt-4 md:mt-8">
                 <Image
                   src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.jpg"
-                  alt=""
+                  alt="An AI rendered profile of Tyler. Tyler is looking towards two monitors on a standing desk. Ostensibly the screen on the right, features VSCode, and the monitor on the left shows GitHub pages."
                   width={500}
                   height={500}
                   className="animate-pulse-extended rounded-lg md:flex md:z-0"

@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/tyler-american-comic-fotor-ai.jpg"
-            alt=""
+            alt="An AI rendered portrait of Tyler, stylized as an American comic avatar. Tyler is a bearded programmer wearing glasses, and a black skullcap."
             priority
             width={325}
             height={325}
