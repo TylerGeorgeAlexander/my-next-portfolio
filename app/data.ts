@@ -36,7 +36,7 @@ export const work = [
     subtitle: "HTML5, CSS3",
     badges: [Html5SVG, CSS3SVG],
     description:
-      "A static web page meticulously crafted for a landscaping and lawn maintenance client, employing HTML5 and CSS3 technologies to ensure an impeccable online presence.",
+      "A static web page meticulously crafted for a landscaping and lawn maintenance client to ensure an impeccable online presence.",
     image: "/advanced-lawn-care.png",
     link: "https://advancedlawncare.netlify.app/",
     github: "",

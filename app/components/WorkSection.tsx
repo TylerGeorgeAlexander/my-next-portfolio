@@ -37,7 +37,6 @@ const WorkSection = () => {
                         <div
                           key={idx}
                           className="flex m-2"
-                          // style={{ width: "100px" }}
                         >
                           <Image
                             src={badge}
