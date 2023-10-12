@@ -1,7 +1,19 @@
+const TensorFlow = `badges/tensorflowjs.svg`;
+const NextJS = `badges/nextjs.svg`;
+const TailwindCSS = `badges/tailwindcss.svg`;
+const MongoDB = `badges/mongodb.svg`;
+const Express = `badges/express.svg`;
+const ReactSVG = `badges/react.svg`;
+const NodeSVG = `badges/nodejs.svg`;
+const Html5SVG = `badges/html5.svg`;
+const CSS3SVG = `badges/css3.svg`;
+const JSSVG = `badges/javascript.svg`;
+
 export const work = [
   {
     title: "ImageSense",
     subtitle: "Next.js, TensorFlow.js, and TailwindCSS",
+    badges: [TensorFlow, NextJS, TailwindCSS],
     description:
       "ImageSense is a web application that allows you to perform image classification using the TensorFlow.js library. The application is built with Next.js and provides an intuitive user interface for uploading and classifying images.",
     image: "/image-sense.png",
@@ -11,6 +23,7 @@ export const work = [
   {
     title: "bugTracker",
     subtitle: "MongoDB, Express, React, Node",
+    badges: [MongoDB, Express, ReactSVG, NodeSVG],
     description:
       "A full stack application for documenting bugs, issues, or features while building an application",
     image: "/bug-tracker-1.png",
@@ -20,6 +33,7 @@ export const work = [
   {
     title: "Advanced Lawn Care",
     subtitle: "HTML5, CSS3",
+    badges: [Html5SVG, CSS3SVG],
     description:
       "Static web page built for a landscaping and lawn maintenance client.",
     image: "/advanced-lawn-care.png",
@@ -29,6 +43,7 @@ export const work = [
   {
     title: "Calvin Ester's Guitar Lessons",
     subtitle: "HTML5, CSS3",
+    badges: [Html5SVG, CSS3SVG],
     description:
       "Static web page built for a guitar instructor who also teaches music theory and history.",
     image: "/calvin-ester-guitar-lessons.png",
@@ -38,6 +53,7 @@ export const work = [
   {
     title: "Color Lab Salon",
     subtitle: "HTML5, CSS3",
+    badges: [Html5SVG, CSS3SVG],
     description:
       "Static web page built for a local women-owned hair salon in Sacramento, California.",
     image: "/color-lab-salon.png",
@@ -47,6 +63,7 @@ export const work = [
   {
     title: "Contactr",
     subtitle: "MongoDB, Express, EJS, Node",
+    badges: [MongoDB, Express, JSSVG, NodeSVG],
     description:
       "Contactr allows you to keep track of your networking connections while job hunting.",
     image: "/contactr.png",
