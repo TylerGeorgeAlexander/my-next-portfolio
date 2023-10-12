@@ -1,10 +1,19 @@
 export const work = [
   {
+    title: "ImageSense",
+    subtitle: "Next.js, TensorFlow.js, and TailwindCSS",
+    description:
+      "ImageSense is a web application that allows you to perform image classification using the TensorFlow.js library. The application is built with Next.js and provides an intuitive user interface for uploading and classifying images.",
+    image: "/image-sense.png",
+    link: "https://image-sense.herokuapp.com/",
+    github: "https://github.com/TylerGeorgeAlexander/ImageSense",
+  },
+  {
     title: "bugTracker",
     subtitle: "MongoDB, Express, React, Node",
     description:
       "A full stack application for documenting bugs, issues, or features while building an application",
-    image: "/bugTracker1.png",
+    image: "/bug-tracker-1.png",
     link: "https://ta-bug-tracker-mern-client.vercel.app",
     github: "https://github.com/TylerGeorgeAlexander/ta-bug-tracker-mern",
   },
@@ -18,15 +27,6 @@ export const work = [
     github: "",
   },
   {
-    title: "Contactr",
-    subtitle: "MongoDB, Express, EJS, Node",
-    description:
-      "Contactr allows you to keep track of your networking connections while job hunting.",
-    image: "/contactr.png",
-    link: "https://contactr-demo.herokuapp.com",
-    github: "https://github.com/TylerGeorgeAlexander/Contactr-demo",
-  },
-  {
     title: "Calvin Ester's Guitar Lessons",
     subtitle: "HTML5, CSS3",
     description:
@@ -36,15 +36,6 @@ export const work = [
     github: "",
   },
   {
-    title: "Fruit Finder",
-    subtitle: "MS Azure's Cognitive Services",
-    description:
-      "Fruit Finder is a web app which uses Machine Learning and Computer Vision to detect fruit in a photo.",
-    image: "/fruit-finder.png",
-    link: "https://ta-fruit-finder.herokuapp.com/",
-    github: "https://github.com/TylerGeorgeAlexander/Fruit-Finder",
-  },
-  {
     title: "Color Lab Salon",
     subtitle: "HTML5, CSS3",
     description:
@@ -52,6 +43,15 @@ export const work = [
     image: "/color-lab-salon.png",
     link: "https://color-lab-salon.netlify.app/",
     github: "",
+  },
+  {
+    title: "Contactr",
+    subtitle: "MongoDB, Express, EJS, Node",
+    description:
+      "Contactr allows you to keep track of your networking connections while job hunting.",
+    image: "/contactr.png",
+    link: "https://contactr-demo.herokuapp.com",
+    github: "https://github.com/TylerGeorgeAlexander/Contactr-demo",
   },
 ];
 
