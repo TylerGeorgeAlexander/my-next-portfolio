@@ -43,11 +43,11 @@ const ContactSection: React.FC = () => {
 
   return (
     <section id="contact" className="relative">
-      <h1 className="my-10 text-center font-bold text-4xl">
-        Contact
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
-      </h1>
       <SlideUp>
+        <h1 className="my-10 text-center font-bold text-4xl">
+          Contact
+          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
+        </h1>
         <div className="container rounded-lg bg-gray-300 dark:bg-gray-800 px-5 py-10 mx-auto flex flex-col md:flex-row items-center text-center animate-slideUpCubiBezier animation-delay-2">
           <div className="lg:w-1/2 md:w-full rounded-lg overflow-hidden sm:mr-0 p-10 flex flex-col items-center justify-center">
             <div className="flex mb-4">

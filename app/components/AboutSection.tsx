@@ -26,40 +26,41 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+              Let&apos;s Connect!
             </h1>
             <p>
-              Greetings! I&apos;m Tyler, a software engineer hailing from
-              Atlanta, GA, known for my{" "}
-              <span className="font-bold">{`unwavering ambition`}</span>,{" "}
-              <span className="font-bold">{`self-motivation`}</span>, and{" "}
-              <span className="font-bold">{`dedication`}</span>.
+              Hello there! I am Tyler, a committed software engineer residing in
+              Atlanta, GA, recognized for my{" "}
+              <span className="font-bold">passion for innovation</span>,{" "}
+              <span className="font-bold">self-driven approach</span>, and{" "}
+              <span className="font-bold">commitment to excellence</span>.
             </p>
             <br />
             <p>
-              By day, I contribute my skills to edX, and in my free time, I
-              delve into the world of freelancing.
-            </p>
-
-            <br />
-            <p>
-              I&apos;m passionate about software engineering and have a wide
-              range of interests that keep me busy. From working on complex
-              coding projects to staying updated with the latest technology
-              trends, I am always seeking new experiences and love to keep
-              myself engaged and learning. In addition to my software
-              engineering skills, I also enjoy tinkering with motorcycles, cars,
-              and small engines. 🧑‍🔧🏍️
+              During my professional hours, I leverage my expertise by teaching
+              software engineering at edX, while in my free time, I engage in
+              freelance projects, broadening my horizons in the field.
             </p>
             <br />
             <p>
-              I firmly believe in the principle of{" "}
+              My primary passion resides in the field of software engineering,
+              where I consistently pursue a broad spectrum of interests. This
+              encompasses tackling complex coding challenges, staying
+              well-informed about the latest technological advancements, and
+              actively seeking opportunities for personal and professional
+              growth. In addition to my software engineering pursuits, I have a
+              keen interest in hands-on activities involving motorcycles,
+              automobiles, and small engines. 🧑‍🔧🏍️
+            </p>
+            <br />
+            <p>
+              I wholeheartedly advocate for the principle of ongoing
+              development, epitomized by the notion of{" "}
               <span className="font-bold text-teal-500">continuous growth</span>
-              . It&apos;s a philosophy I wholeheartedly embrace. My passion for
-              technology fuels my drive to consistently explore the boundaries
-              of what&apos;s achievable. I&apos;m eager to discover the path my
-              career will take, and I remain open to exciting new opportunities.
-              😊
+              . This principle fuels my passion for technology, motivating me to
+              consistently challenge the limits of what is achievable and
+              explore new frontiers. I am eagerly anticipating the promising
+              opportunities that await me in my professional journey. 😊
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -78,16 +79,36 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center items-center flex-col mt-8">
               <div className="flex m-4">
-                <span id="C" className="light">C</span>
-                <span id="R" className="light">R</span>
-                <span id="E" className="light">E</span>
-                <span id="A" className="light">A</span>
-                <span id="T" className="light">T</span>
-                <span id="I" className="light">I</span>
-                <span id="V" className="light">V</span>
-                <span id="I2" className="light">I</span>
-                <span id="T2" className="light">T</span>
-                <span id="Y" className="light">Y</span>
+                <span id="C" className="light">
+                  C
+                </span>
+                <span id="R" className="light">
+                  R
+                </span>
+                <span id="E" className="light">
+                  E
+                </span>
+                <span id="A" className="light">
+                  A
+                </span>
+                <span id="T" className="light">
+                  T
+                </span>
+                <span id="I" className="light">
+                  I
+                </span>
+                <span id="V" className="light">
+                  V
+                </span>
+                <span id="I2" className="light">
+                  I
+                </span>
+                <span id="T2" className="light">
+                  T
+                </span>
+                <span id="Y" className="light">
+                  Y
+                </span>
               </div>
 
               <div className="mt-4 md:mt-8">
