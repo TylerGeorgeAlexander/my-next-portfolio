@@ -113,7 +113,7 @@ const AboutSection = () => {
 
               <div className="mt-4 md:mt-8">
                 <Image
-                  src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.png"
+                  src="/tyler-diffused-realism-desk-side-profile-1-fotor-ai.jpg"
                   alt=""
                   width={500}
                   height={500}
