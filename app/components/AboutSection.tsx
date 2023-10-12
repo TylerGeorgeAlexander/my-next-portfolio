@@ -59,8 +59,7 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">continuous growth</span>
               . This principle fuels my passion for technology, motivating me to
               consistently challenge the limits of what is achievable and
-              explore new frontiers. I am eagerly anticipating the promising
-              opportunities that await me in my professional journey. 😊
+              explore new frontiers. 😊
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
