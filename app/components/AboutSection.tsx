@@ -48,9 +48,12 @@ const AboutSection = () => {
               encompasses tackling complex coding challenges, staying
               well-informed about the latest technological advancements, and
               actively seeking opportunities for personal and professional
-              growth. In addition to my software engineering pursuits, I have a
-              keen interest in hands-on activities involving motorcycles,
-              automobiles, and small engines. 🧑‍🔧🏍️
+              growth. I have a profound and unwavering passion for AI, machine
+              learning, large language models, and technical writing, driving me
+              to constantly explore and innovate in these fields. In addition to
+              my software engineering pursuits, I have a keen interest in
+              hands-on activities involving motorcycles, automobiles, and small
+              engines. 🧑‍🔧🏍️
             </p>
             <br />
             <p>
