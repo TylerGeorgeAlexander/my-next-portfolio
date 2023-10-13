@@ -68,6 +68,12 @@ Please note that you may need to add one or both of these environment variables 
 
 - `DISABLE_IPX`: This variable appears to be commented out in the example. Depending on your use case and image optimization preferences, you can uncomment and configure it accordingly.
 
+![Netlify environment variables component with NEXT_FORCE_EDGE_IMAGES set to true](netlify-env-component.png)
+
+Setting `NEXT_FORCE_EDGE_IMAGES=true` resulted in a significant increase in build times, with the duration jumping from 20 seconds to 1 minute and 20 seconds, and eventually exceeding 3.5 minutes.
+
+![Netlify build time reaching 3m 30s](netlify-build-time.png)
+
 Make sure to review the Next.js and Netlify documentation for any additional configuration steps specific to your project.
 
 ## Deployment
