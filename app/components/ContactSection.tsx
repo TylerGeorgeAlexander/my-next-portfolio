@@ -31,9 +31,14 @@ const ContactSection: React.FC = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...formData }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => {
+        alert("Message sent!");
+        // Clear the form by setting formData to an empty object
+        setFormData({ name: "", email: "", message: "" });
+      })
       .catch((error) => alert(error));
   }
+  
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
