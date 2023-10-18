@@ -33,12 +33,13 @@ const ContactSection: React.FC = () => {
     })
       .then(() => {
         alert("Message sent!");
-        // Clear the form by setting formData to an empty object
-        setFormData({ name: "", email: "", message: "" });
       })
+      .then(() =>
+        // Clear the form by setting formData to an empty object
+        setFormData({ name: "", email: "", message: "" })
+      )
       .catch((error) => alert(error));
   }
-  
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
