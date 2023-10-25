@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Router from "next/router";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import SlideUp from "./SlideUp";
 
