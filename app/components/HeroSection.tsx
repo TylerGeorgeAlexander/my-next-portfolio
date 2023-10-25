@@ -32,7 +32,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="work"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -52,7 +52,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
       </div>
     </section>
