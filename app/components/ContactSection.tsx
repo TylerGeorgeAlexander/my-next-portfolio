@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Router from "next/router";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import SlideUp from "./SlideUp";
 
@@ -37,6 +38,11 @@ const ContactSection: React.FC = () => {
       .then(() =>
         // Clear the form by setting formData to an empty object
         setFormData({ name: "", email: "", message: "" })
+      )
+      //
+      .then(() =>
+        // Utilize the router object to clear the form by refreshing the current page
+        Router.reload()
       )
       .catch((error) => alert(error));
   }
