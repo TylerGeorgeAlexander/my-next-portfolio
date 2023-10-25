@@ -16,6 +16,7 @@ const ContactSection: React.FC = () => {
     email: "",
     message: "",
   });
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
 
   function encode(data: Record<string, string>): string {
     return Object.keys(data)
@@ -34,16 +35,9 @@ const ContactSection: React.FC = () => {
     })
       .then(() => {
         alert("Message sent!");
+        setFormData({ name: "", email: "", message: "" }); // Clear the form data
+        setIsSubmitted(true); // Set form as submitted
       })
-      .then(() =>
-        // Clear the form by setting formData to an empty object
-        setFormData({ name: "", email: "", message: "" })
-      )
-      //
-      .then(() =>
-        // Utilize the router object to clear the form by refreshing the current page
-        Router.reload()
-      )
       .catch((error) => alert(error));
   }
 
@@ -92,56 +86,60 @@ const ContactSection: React.FC = () => {
               <a href="tel:+6787199146">(678) 719-9146</a>
             </div>
           </div>
-          <form
-            name="contact"
-            data-netlify="true"
-            onSubmit={handleSubmit}
-            className="lg:w-1/2 md:w-full flex flex-col text-center items-center md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-          >
-            {/* You still need to add the hidden input with the form name to your JSX form */}
-            <input type="hidden" name="form-name" value="contact" />
-            <div className="relative mb-4 w-full">
-              <label htmlFor="name" className="leading-7 text-sm">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="input-style w-full" // Change the class to w-full
-                onChange={handleChange}
-              />
-            </div>
-            <div className="relative mb-4 w-full">
-              <label htmlFor="email" className="leading-7 text-sm">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="input-style w-full" // Change the class to w-full
-                onChange={handleChange}
-              />
-            </div>
-            <div className="relative mb-4 w-full">
-              <label htmlFor="message" className="leading-7 text-sm">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="flex textarea-style w-full" // Change the class to w-full
-                onChange={handleChange}
-              />
-            </div>
-            <button
-              type="submit"
-              className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-400 dark:hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
+          {!isSubmitted ? (
+            <form
+              name="contact"
+              data-netlify="true"
+              onSubmit={handleSubmit}
+              className="lg:w-1/2 md:w-full flex flex-col text-center items-center md:ml-auto w-full md:py-8 mt-8 md:mt-0"
             >
-              Submit
-            </button>
-          </form>
+              {/* You still need to add the hidden input with the form name to your JSX form */}
+              <input type="hidden" name="form-name" value="contact" />
+              <div className="relative mb-4 w-full">
+                <label htmlFor="name" className="leading-7 text-sm">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="input-style w-full" // Change the class to w-full
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="relative mb-4 w-full">
+                <label htmlFor="email" className="leading-7 text-sm">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="input-style w-full" // Change the class to w-full
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="relative mb-4 w-full">
+                <label htmlFor="message" className="leading-7 text-sm">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  className="flex textarea-style w-full" // Change the class to w-full
+                  onChange={handleChange}
+                />
+              </div>
+              <button
+                type="submit"
+                className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-400 dark:hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
+              >
+                Submit
+              </button>
+            </form>
+          ) : (
+            <p>Thank you for your message! We will get back to you soon.</p>
+          )}
         </div>
       </SlideUp>
     </section>
