@@ -140,10 +140,19 @@ const ContactSection: React.FC = () => {
               <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                 onChange={handleRecaptchaChange}
+                className="mb-4"
               />
               <button
                 type="submit"
-                className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-400 dark:hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
+                className={`bg-indigo-500 ${
+                  isRecaptchaVerified
+                    ? "hover:bg-indigo-600"
+                    : "cursor-not-allowed opacity-50"
+                } dark:bg-indigo-400 ${
+                  isRecaptchaVerified
+                    ? "dark:hover:bg-indigo-500"
+                    : "dark:hover:bg-indigo-400"
+                } text-white font-bold py-2 px-4 rounded`}
                 disabled={!isRecaptchaVerified}
               >
                 Submit
