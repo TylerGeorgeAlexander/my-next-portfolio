@@ -159,7 +159,7 @@ const ContactSection: React.FC = () => {
               </button>
             </form>
           ) : (
-            <p>Thank you for your message! We will get back to you soon.</p>
+            <p>Thank you for your message! I will get back to you soon.</p>
           )}
         </div>
       </SlideUp>
