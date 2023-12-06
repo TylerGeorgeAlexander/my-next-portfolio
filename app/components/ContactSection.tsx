@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import SlideUp from "./SlideUp";
 
@@ -16,6 +17,13 @@ const ContactSection: React.FC = () => {
     message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [isRecaptchaVerified, setIsRecaptchaVerified] =
+    useState<boolean>(false);
+
+  // Handle reCAPTCHA verification
+  const handleRecaptchaChange = (value: string | null) => {
+    setIsRecaptchaVerified(!!value);
+  };
 
   function encode(data: Record<string, string>): string {
     return Object.keys(data)
@@ -129,9 +137,14 @@ const ContactSection: React.FC = () => {
                   onChange={handleChange}
                 />
               </div>
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={handleRecaptchaChange}
+              />
               <button
                 type="submit"
                 className="bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-400 dark:hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"
+                disabled={!isRecaptchaVerified}
               >
                 Submit
               </button>
