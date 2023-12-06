@@ -12,6 +12,16 @@ const JSSVG = `badges/javascript.svg`;
 
 export const work = [
   {
+    title: "Chat GPT API Template",
+    subtitle: "MongoDB, Express, React, Node, TailwindCSS",
+    badges: [MongoDB, Express, ReactSVG, NodeSVG, TailwindCSS],
+    description:
+      "I've developed this MERN (MongoDB, Express.js, React.js, Node.js) stack template that empowers you to build a web application seamlessly integrated with the ChatGPT API from OpenAI. Utilizing this template, you can efficiently establish a robust chatbot application complete with a backend server and a user-friendly frontend.",
+    image: "/chat-gpt-api.png",
+    link: "https://chat-gpt-api-generator-e42f3131abd6.herokuapp.com/",
+    github: "https://github.com/TylerGeorgeAlexander/chat-gpt-api",
+  },
+  {
     title: "ImageSense",
     subtitle: "Next.js, TensorFlow.js, and TailwindCSS",
     badges: [TensorFlow, NextJS, TailwindCSS],
