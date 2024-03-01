@@ -18,7 +18,7 @@ export const work = [
     description:
       "I've developed this MERN (MongoDB, Express.js, React.js, Node.js) stack template that empowers you to build a web application seamlessly integrated with the ChatGPT API from OpenAI. Utilizing this template, you can efficiently establish a robust chatbot application complete with a backend server and a user-friendly frontend.",
     image: "/chat-gpt-api.png",
-    link: "https://chat-gpt-api-generator-e42f3131abd6.herokuapp.com/",
+    link: "https://chat-gpt-api-redirect.vercel.app/",
     github: "https://github.com/TylerGeorgeAlexander/chat-gpt-api",
   },
   {
@@ -28,7 +28,7 @@ export const work = [
     description:
       "ImageSense is a web application that allows you to perform image classification using the TensorFlow.js library. The application is built with Next.js and provides an intuitive user interface for uploading and classifying images.",
     image: "/image-sense.png",
-    link: "https://image-sense.herokuapp.com/",
+    link: "https://imagesense-redirect.vercel.app/",
     github: "https://github.com/TylerGeorgeAlexander/ImageSense",
   },
   {
