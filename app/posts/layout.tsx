@@ -1,6 +1,7 @@
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/app/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Head from "../head";
 import Header from "../_components/header";
 import "./globals.css";
 
@@ -28,10 +29,11 @@ export default function RootLayout({
     //   </body>
     // </html>
     <div lang="en">
-    <div className={inter.className}>
-    <Header />
-      <div className="min-h-screen">{children}</div>
+      <div className={inter.className}>
+        <Head />
+        <Header />
+        <div className="min-h-screen">{children}</div>
+      </div>
     </div>
-  </div>
   );
 }
