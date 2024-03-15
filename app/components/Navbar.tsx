@@ -65,17 +65,6 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <HrefLink
-                key="blog"
-                href="/posts"
-                className={
-                  "cursor-pointer block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
-                }
-                offset={-100}
-                duration={500}
-              >
-                Blog
-              </HrefLink>
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
@@ -95,6 +84,17 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+              <HrefLink
+                key="blog"
+                href="/posts"
+                className={
+                  "cursor-pointer block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                }
+                offset={-100}
+                duration={500}
+              >
+                Blog
+              </HrefLink>
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
