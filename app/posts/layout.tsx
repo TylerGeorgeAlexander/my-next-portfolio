@@ -1,8 +1,7 @@
-import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/app/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
+import Header from "../_components/header";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,8 +29,8 @@ export default function RootLayout({
     // </html>
     <div lang="en">
     <div className={inter.className}>
+    <Header />
       <div className="min-h-screen">{children}</div>
-      <Footer />
     </div>
   </div>
   );
