@@ -6,6 +6,7 @@ import markdownToHtml from "@/app/lib/markdownToHtml";
 import Container from "@/app/_components/container";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import Head from "../../head";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -18,6 +19,7 @@ export default async function Post({ params }: Params) {
 
   return (
     <main>
+      <Head />
       <Container>
         <article className="mb-32">
           <PostHeader
