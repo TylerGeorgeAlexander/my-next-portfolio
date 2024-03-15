@@ -2,7 +2,7 @@
 title: "Darkmode First Development"
 excerpt: "Dark mode has become increasingly popular among users, and it's not just about mobile-first development anymore; it's also about considering dark mode from the very beginning of your application's creation. In this article, we'll discuss the importance of embracing dark mode in your development process."
 coverImage: "/assets/blog/darkmode-first-development/more-tools.png"
-date: "2020-03-16T05:35:07.322Z"
+date: "2023-11-29T16:17:27.000Z"
 author:
   name: Tyler Alexander
   picture: "/assets/blog/authors/tyler.jpg"

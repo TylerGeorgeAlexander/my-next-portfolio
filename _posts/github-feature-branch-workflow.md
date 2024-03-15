@@ -2,7 +2,7 @@
 title: "Git Feature Branch Workflow Guide"
 excerpt: "Experiencing difficulties with creating a feature branch in Git? This comprehensive guide will walk you through the Git Feature Branch Workflow, a popular method used in software development projects for collaborative work."
 coverImage: "/assets/blog/github-feature-branch-workflow/vscode-terminal.png"
-date: "2023-01-16T05:35:07.322Z"
+date: "2023-12-07T09:36:21.000Z"
 author:
   name: Tyler Alexander
   picture: "/assets/blog/authors/tyler.jpg"
