@@ -48,9 +48,7 @@ Make sure to visit the DevTools documentation for shortcuts at this link: [DevTo
 
 In summary / In conclusion, I've gained valuable insight into a feature that previously kept both me and my users in the dark. 
 
-    I hope this article has shed light on the significance of dark mode development and provided you with valuable insights. 
-        OR
-    I hope I have opened your eyes to this issue as well, or at least potentially entertained you with *schadenfreude*.
+I hope I have opened your eyes to this issue as well, or at least potentially entertained you with *schadenfreude*.
 
 If you're interested in more articles like this, stay tuned as I continue to explore my own DevDiscoveries and uncover exciting features in DevTools.
 
